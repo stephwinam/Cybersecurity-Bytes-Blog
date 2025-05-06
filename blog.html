@@ -3,47 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog - Cybersecurity Bytes</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>CyberBlog - Blog</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <header>
+    <header class="navbar">
+      <div class="logo">CyberBlog</div>
       <nav>
-        <h1>Cybersecurity Bytes</h1>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><button id="darkToggle">🌙</button></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="recent-posts">
-        <h2>All Blog Posts</h2>
-
-        <article class="post-card">
-          <h4>Understanding Phishing Emails</h4>
-          <p>How to identify and avoid email scams.</p>
-          <a href="posts/post1.html">Read more</a>
-        </article>
-
-        <article class="post-card">
-          <h4>Top 3 Password Managers</h4>
-          <p>Our top picks for safe and easy password storage.</p>
-          <a href="posts/post2.html">Read more</a>
-        </article>
-
-        <!-- Add more blog cards as needed -->
+    <main class="blog-posts">
+      <section class="post">
+        <img src="images/cyber1.jpg" alt="Cybersecurity Tips" />
+        <h2>5 Tips to Stay Safe Online</h2>
+        <p>
+          Staying secure online is more than just using strong passwords. From
+          phishing awareness to software updates, here are practical tips to
+          keep your data safe every day...
+        </p>
+        <a href="post1.html" class="read-more-btn">Continue Reading</a>
       </section>
+
+      <section class="post">
+        <img src="images/cyber2.jpg" alt="Phishing Awareness" />
+        <h2>Recognizing Phishing Scams</h2>
+        <p>
+          Phishing is one of the most common cyber threats. Learn how to
+          recognize and protect yourself from deceptive emails, fake websites,
+          and social engineering tactics...
+        </p>
+        <a href="post2.html" class="read-more-btn">Continue Reading</a>
+      </section>
+
+      <!-- Add more posts as needed -->
     </main>
 
     <footer>
-      <p>&copy; 2025 Cybersecurity Bytes</p>
+      <p>&copy; 2025 CyberBlog. All rights reserved.</p>
     </footer>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
