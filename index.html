@@ -3,50 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cybersecurity Bytes</title>
+    <title>Cyber Blog</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <h1>Cybersecurity Bytes</h1>
-        <ul>
+      <nav class="navbar">
+        <div class="logo">CyberBlog</div>
+        <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><button id="darkToggle">🌙</button></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="welcome">
-        <h2>Welcome to Cybersecurity Bytes</h2>
-        <p>Quick reads and tips for staying safe online.</p>
-      </section>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to CyberBlog</h1>
+        <p>Your go-to space for cybersecurity tips, tricks, and insights.</p>
+      </div>
+    </section>
 
-      <section class="recent-posts">
-        <h3>Recent Posts</h3>
-        <article class="post-card">
-          <h4>5 Simple Cyber Hygiene Habits</h4>
-          <p>Learn daily habits that help protect your online life.</p>
-          <button class="read-more-btn">Read more</button>
-          <div class="post-content hidden">
-            <p>
-              Always use strong passwords, avoid phishing links, keep software
-              updated...
-            </p>
+    <section class="recent-posts">
+      <h2>Recent Posts</h2>
+      <div class="post-grid">
+        <a href="blog.html" class="post-card">
+          <img src="images/cyber1.jpg" alt="Post 1" />
+          <div class="card-content">
+            <h3>Top 5 Cyber Hygiene Tips</h3>
+            <p>Simple habits to secure your digital life daily.</p>
           </div>
-        </article>
-        <!-- Add more post-cards as needed -->
-      </section>
-    </main>
+        </a>
+        <a href="blog.html" class="post-card">
+          <img src="images/cyber2.jpg" alt="Post 2" />
+          <div class="card-content">
+            <h3>Phishing Scams Explained</h3>
+            <p>How to identify and avoid common traps.</p>
+          </div>
+        </a>
+        <a href="blog.html" class="post-card">
+          <img src="images/cyber3.jpg" alt="Post 3" />
+          <div class="card-content">
+            <h3>Two-Factor Authentication</h3>
+            <p>Why it's essential and how to set it up.</p>
+          </div>
+        </a>
+        <a href="blog.html" class="post-card">
+          <img src="images/cyber4.png" alt="Post 4" />
+          <div class="card-content">
+            <h3>Password Managers 101</h3>
+            <p>Save time, stay safe—how password vaults help.</p>
+          </div>
+        </a>
+      </div>
+    </section>
 
     <footer>
-      <p>&copy; 2025 Cybersecurity Bytes</p>
+      <p>&copy; 2025 CyberBlog. All rights reserved.</p>
     </footer>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
