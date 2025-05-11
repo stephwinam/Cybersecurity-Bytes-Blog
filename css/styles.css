@@ -12,6 +12,13 @@ body {
   color: #333;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 /* Navbar */
 .navbar {
   position: sticky;
