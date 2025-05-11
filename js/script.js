@@ -38,3 +38,23 @@ if (form) {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contactForm");
+  const status = document.getElementById("formStatus");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // Simulate form submission delay
+    setTimeout(() => {
+      status.classList.remove("hidden");
+      form.reset();
+
+      // Optional: Hide message after 5 seconds
+      setTimeout(() => {
+        status.classList.add("hidden");
+      }, 5000);
+    }, 1000);
+  });
+});
