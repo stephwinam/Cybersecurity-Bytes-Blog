@@ -2,11 +2,11 @@
 
 **Cyber Bytes** is a clean, modern, beginner-friendly cybersecurity blog built with HTML, CSS, and a touch of JavaScript. It’s designed to make complex cybersecurity topics simple and accessible to everyone—from curious beginners to tech enthusiasts.
 
-![Cyber Bytes Screenshot](images/screenshot.png) <!-- Replace or remove this line if no screenshot yet -->
+![Cyber Bytes Screenshot](./images/home-page.png) 
 
 ## 🌐 Live Demo
 
-🔗 [Visit Cyber Bytes](https://yourusername.github.io/your-repo-name)  
+🔗 [Visit Cyber Bytes](https://stephwinam.github.io/Cybersecurity-Bytes-Blog)
 
 
 ---
@@ -33,35 +33,19 @@
 
 ---
 
-## 📁 Folder Structure
-Cyber-Bytes/
-│
-├── css/
-│ └── styles.css
-├── images/
-│ └── (All images used in the site)
-├── js/
-│ └── script.js
-├── index.html
-├── blog.html
-├── about.html
-├── contact.html
-├── post1.html
-├── post2.html
-├── post3.html
-├── post4.html
-└── README.md
-
-
----
-
 ## 🚀 How to Use or Contribute
 
-1. **Clone the repository:**
+ **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/stephwinam/Cybersecurity-Bytes-Blog.git
+cd Cybersecurity-Bytes-Blog
 
+Open in a browser:
 
+Just open index.html in your browser.
+
+Want to contribute?
+
+Feel free to fork this repo, make your changes, and submit a pull request!
 
